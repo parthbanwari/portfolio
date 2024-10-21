@@ -137,7 +137,7 @@ nav ul  li a:hover::after{
     display: block;
 
 }
-/*--------------------services------------------------*/
+/*--------------------projects------------------------*/
 #project{
     padding: 3px 0;
 }
@@ -154,7 +154,7 @@ nav ul  li a:hover::after{
     font-size: 13px;
     font-weight: 300;
     border-radius: 10px;
-    transition: backgroun 1s, transform 0.5s;
+    transition: background 1s, transform 0.5s;
 }
 
 .services-list div h2{
@@ -211,7 +211,7 @@ input, textarea{
     border-radius: 8px;
     border: none;
     background-color: #fff;
-    color: #fea856;
+    color: black;
 }
 input:focus,
 textarea:focus{
@@ -299,7 +299,7 @@ nav .fas{
     display: none;
 }
 
-@media only screen and (max-width: 600px){
+@media screen and (max-width: 500px){
     .header-text{
         margin-top: 35%;
         font-size: 32px;
@@ -353,7 +353,7 @@ nav .fas{
         padding-left: 10px;
     }
     .tab-links{
-        font-size: 18px;
+        font-size: 38px;
         margin-right: 20px;
     }
     /*----------------project----------*/
@@ -363,6 +363,10 @@ nav .fas{
     .services-list{
         padding-right: 50px;
         padding-top: 0px;
+        
+    }
+    .services-list div a{
+        font-size: 30px;
     }
     /*----------contact---------*/
     .social-icon{
@@ -370,6 +374,9 @@ nav .fas{
     }
     .btn{
         margin: 6px;
+    }
+    .form-group .mess{
+        font-size: 1px;
     }
 }
 #msg{
